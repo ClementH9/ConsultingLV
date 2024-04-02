@@ -11,9 +11,9 @@ const Header = () => {
             <nav className="largeur_trait_mobile">
                 <ul class="menu">
                     <li><Link to="/">Accueil</Link></li>
-                    <li><Link to="/Expertises">Expertises</Link></li>
-                    <li className="a-propos">A propos</li>
-                    <li className="contact">Contact</li>
+                    <li><Link to="/expertises">Expertises</Link></li>
+                    <li><Link to="/a-propos">A propos</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
         </header>

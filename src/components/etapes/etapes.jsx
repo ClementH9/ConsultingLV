@@ -12,7 +12,7 @@ const Etapes = () => {
     return (
         <div className="differentes-etapes">
             <div className="homepage">
-                <h2 className="process">Le process</h2>
+                <h2 className="process">Vos besoins</h2>
                 <div className="etape">
                     <h3 className="titre-etape"><FontAwesomeIcon icon={faBullseye} className="icone-etape" />Ciblage et analyse des besoins</h3>
                 </div>

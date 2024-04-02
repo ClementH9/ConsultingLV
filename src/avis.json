@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "auteur": "Jean Dupont",
+      "contenu": "Une expérience formidable avec cette entreprise. Le service client était excellent et le produit final dépassait mes attentes."
+    },
+    {
+      "id": 2,
+      "auteur": "Marie Martin",
+      "contenu": "J'ai été très satisfait de leur professionnalisme et de leur réactivité. Je recommande vivement cette entreprise à tous ceux qui recherchent des services de qualité."
+    },
+    {
+      "id": 3,
+      "auteur": "Pierre Durand",
+      "contenu": "Très content de leur travail. L'équipe était sympathique et compétente. Je n'hésiterai pas à faire appel à eux à nouveau dans le futur."
+    },
+    {
+      "id": 4,
+      "auteur": "Julien Maréchal",
+      "contenu": "Merci pour cette collaboration fructueuse qui s'est faite dans les délais et de façon qualitative. Je recommande."
+    }
+  ]

@@ -8,6 +8,8 @@
 .logo{
   width: 45%;
   height: 45%;
+  min-width: 300px;
+  min-height: 70px;
   padding-top: 10px;
   padding-left: 20px;
 }
@@ -26,6 +28,7 @@ nav ul
     display: flex;
     margin: 0px;
     color: #545454;
+    font-size: 14px;
 }
 
 nav li
@@ -120,6 +123,90 @@ h3{
   color: #0079c9;
   margin-right: 10px;
 }
+
+.div-about{
+  margin: 50px;
+}
+
+.about{
+  text-align: center;
+}
+
+.description{
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.avis-clients{
+  text-align: center;
+  color: #024a7a;
+}
+
+.titre-avis{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.contenu-avis{
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.container-about{
+  text-align:center ;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.form-container .form-group {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container textarea {
+  height: 150px; /* Hauteur personnalisée pour le champ "Message" */
+}
+
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
 
 footer{
   background-color: black;
