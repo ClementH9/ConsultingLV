@@ -1,49 +1,78 @@
 <!DOCTYPE html>
-    <html lang="fr">
-        <head>
-            <meta charset="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>First Tacos - Wasquehal</title>
-            <link rel="stylesheet" href="styles.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/20dc0c9f16.js" crossorigin="anonymous"></script>
-        </head>
-        <body>
-            <div class="container">
-                <main>
-                    <header className="banner-container">
-                        <img className="banner-image" src={banner} alt="banner" />
-                        <div className="banner-text">
-                            <p className="presentation">Organisateur de Bachelor et Bachelorette party depuis 2071</p>
-                        </div>
-                    </header>
-                    <div className="differentes-etapes">
-                        <div className="homepage">
-                            <h2 className="process">Vos besoins</h2>
-                            <div className="etape">
-                                <h3 className="titre-etape"><i class="fa-solid fa-bulls-eye"></i>Ciblage et analyse des besoins</h3>
-                            </div>
-                            <div className="etape">
-                                <h3 className="titre-etape"><i class="fa-solid fa-chart-simple">Diagnostic et plan d'action</h3>
-                            </div>
-                            <div className="etape">
-                                <h3 className="titre-etape"><i class="fa-solid fa-star">Résultats et suivi</h3>
-                            </div>
-                            <h2 className="engagements">Nos engagements</h2>
-                            <div className="engagement">
-                                <h3 className="titre-engagement"><i class="fa-solid fa-gauge-high">Réactivité</h3>
-                            </div>
-                            <div className="engagement">
-                                <h3 className="titre-engagement"><i class="fa-solid fa-medal">Qualité</h3>
-                            </div>
-                            <div className="engagement">
-                                <h3 className="titre-engagement"><i class="fa-solid fa-calendar">Efficience</h3>
-                            </div>
-                        </div>
-                    </div>
-                </main>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LV Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcXtj2OBwA2I9rQx6kVxn3OwBcjVpVmG8oxX0F8eNfuUwT6S0ezPbksdM8UTMZf5LlJY9o96y6dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <main>
+            <header>
+                <div class="logo">
+                    <img src='./src/assets/images/lv-logo.png' alt="logo" class="logo"/>
+                </div>
+                <nav class="largeur_trait_mobile">
+                    <ul class="menu">
+                        <li><Link to="/">Accueil</Link></li>
+                        <li><a href="expertises.html">Expertises</a></li>
+                        <li><Link to="/a-propos">A propos</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="main-banner">
+                <img src='./src/assets/images/banner1.jpeg' alt="banner" class="main-banner"/>
+                <h2 class="accroche">Le SEO à portée de main</h2>
             </div>
-        </body>
-                
+            <div class="differentes-etapes">
+                <div class="homepage">
+                    <h2 class="process">Vos besoins</h2>
+                    <div class="etape">
+                        <h3 class="titre-etape">
+                            <i class="fa-solid fa-bullseye icone-etape"></i>
+                            Ciblage et analyse des besoins
+                        </h3>
+                    </div>
+                    <div class="etape">
+                        <h3 class="titre-etape">
+                            <i class="fa-solid fa-chart-simple icone-etape"></i>
+                            Diagnostic et plan d'action
+                        </h3>
+                    </div>
+                    <div class="etape">
+                        <h3 class="titre-etape">
+                            <i class="fa-solid fa-star icone-etape"></i>
+                            Résultats et suivi
+                        </h3>
+                    </div>
+                    <h2 class="engagements">Nos engagements</h2>
+                    <div class="engagement">
+                        <h3 class="titre-engagement">
+                            <i class="fa-solid fa-gauge-high icone-engagement"></i>
+                            Réactivité
+                        </h3>
+                    </div>
+                    <div class="engagement">
+                        <h3 class="titre-engagement">
+                            <i class="fa-solid fa-medal icone-engagement"></i>
+                            Qualité
+                        </h3>
+                    </div>
+                    <div class="engagement">
+                        <h3 class="titre-engagement">
+                            <i class="fa-solid fa-calendar icone-engagement"></i>
+                            Efficience
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <p class="footer-text font-text">Produced by ClementH9</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
